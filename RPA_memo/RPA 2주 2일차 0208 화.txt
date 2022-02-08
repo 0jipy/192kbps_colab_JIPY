@@ -1,0 +1,109 @@
+0208. 세션7 텍스트 스트링 
+
+1. Contains -> 특정 키워드 찾기 
+2. StartsWith -> 앞 태그 찾을 때 사용 
+3. EndsWith -> 확장자명 구분할 때
+4. Replace → 공백 제거시 사용
+5. Substring → 특정 글자 추출
+6. Trim → 양쪽공백제거(데이터의 정합성을 판단할 때 쓰는 함수)
+7. Split 쓸 때 주의할점
+→ 특정 문자를 기준으로 쪼갠다.(특정 문자는 반드시 1개다)
+→ ASCII Code
+
+<Split을 쓰는 방법 2가지>
+1. 배열을 이용해서 쓰는 방법 → Array of [T] 변수 생성
+→ ex. String.Split("\"c)  * c = Character(문자하나)
+
+2. 직접 접근해서 쓰는 방법 → 변수 생성 없이 쓰는 방법
+→ ex. String.Split("\"c)(1)
+
+
+<스플릿을 쓰는 방법 2가지 >
+1. 배열을 이용해서 쓰는 방법 -> Array of [T]변수 생성
+2. 직접 접근해서 쓰는 방법 -> 병수 생성 없이 쓰는 방법. 
+-> ex) String.Split("\"c`
+
+
+직접 접근. ?  스플릿 3개 연습할것. 
+
+
+
+<확장자명 정리>
+1. 엑셀 : .xlsx , .xls
+2. 워드 : .docx , .doc
+3. 파워포인트 : .pptx , .ppt
+4. 텍스트 파일 : .txt
+5. 이메일  : .eml
+6. PDF : .pdf
+7. CSV : .csv 
+
+-------------------
+사람을 믿지 않는다. 누구나 실 수 할 수 있다. 데이터안에도 오류가 존재할 수 있다는 가정안에서 프로그램을 진행해줘야 한다. 프로그래밍할때 사람을 신뢰하지 않고 공백처리, 예외처리.
+------------------
+
+<시간 표현>
+1. 시스템에 특정 날짜를 입력
+2. 회계단위 기준으로 전년도, 전월, 전일 대비
+
+Datetime.
+
+Now.ToString("yyyyMMdd hh:mm:ss)
+
+Now.AddYears
+Now.AddMonths
+Now.AddDays
+
+
+날짜 사용 프로세스
+1. 시스템 날짜 입력시
+2. 파일, 폴더명 생성시
+3. 재무회계 관련 프로세스는 무조건 쓴다. 
+
+<반복문>
+1. While
+2. For(반복문)
+
+<배열, 리스트, 딕셔너리>
+1. 배열 = Array
+2. 리스트, 딕셔너리 = Collection(컬렉션) --> Add to Collection
+
+배열, 리스트, 딕셔너리
+
+1. 배열 = Array ---> Assign 으로 데이터를 추가한다.
+2. 리스트, 딕셔너리 = Collection(컬렉션) ---> Add to Collection 액티비티 사용 가능
+
+<변수 초기화 식 = Assign 이용>
+1. String = ""
+2. Int32, Double = 0
+3. Datatable = new Datatable()
+4. 배열 = new String(100){}
+5. 리스트 = new List(of String)
+6. 딕셔너리 = new Dictionary(of String, Object)
+
+
+프로젝트.
+생각하고 진도가 달라서. 
+Pl 1 - 개발자 3
+MySQL
+시각화
+머신러닝
+딥러닝
+
+<엑셀>
+1. 엑셀 함수를 배우지 않습니다. → 데이터 가공하기
+2. 엑셀 액티비티(Read, Write) < 데이터 테이블 액티비티
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
